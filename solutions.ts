@@ -32,3 +32,12 @@ console.log(checkType("Hello"));
 console.log(checkType(42));
 
 
+// blog-4.md
+
+function getProperty<T, X extends keyof T>(obj: T, key: X): T[X] {
+    return obj[key];
+}
+
+const user = { id: 1, name: "John Doe", age: 21 };
+
+console.log(getProperty(user, "name"));
