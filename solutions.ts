@@ -95,3 +95,6 @@ class Student extends Person {
 
 const student = new Student("Alice", 20, "A");
 console.log(student.getDetails());
+
+
+
