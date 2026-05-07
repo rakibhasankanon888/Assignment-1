@@ -37,7 +37,7 @@ function getProperty<T, X extends keyof T>(obj: T, key: X): T[X] {
     return obj[key];
 }
 
-const user = { id: 1, name: "John Doe", age: 21 };
+
 
 
 
@@ -57,11 +57,7 @@ function toggleReadStatus(book: Book): Book & { isRead: boolean } {
     };
 }
 
-const myBook = {
-    title: "TypeScript Guide",
-    author: "Jane Doe",
-    publishedYear: 2024,
-};
+
 
 
 
@@ -92,7 +88,7 @@ class Student extends Person {
     }
 }
 
-const student = new Student("Alice", 20, "A");
+
 
 
 
